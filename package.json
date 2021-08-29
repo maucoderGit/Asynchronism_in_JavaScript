@@ -4,7 +4,8 @@
   "description": "Practice for learn Asynchronism in JavaScript",
   "main": "index.js",
   "scripts": {
-    "callback": "node src/callbacks.js"
+    "callback": "node src/callbacks.js",
+    "callback:challenge": "node src/callbacks.js"
   },
   "author": "Mauricio Alejandro Gonzalez Falcon",
   "license": "MIT",
