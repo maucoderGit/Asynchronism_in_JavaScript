@@ -1,6 +1,6 @@
 let XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
 
-let API = 'https://rickandmortyapi.com/api/character'
+let API = 'https://rickandmortyapi.com/api/character/'
 
 function fetch_data(url_api, callback){
     let xhttp = new XMLHttpRequest();
@@ -26,7 +26,7 @@ fetch_data(API, function (error1, data1) {
     fetch_data(API + data1.results[0].id, function (error2, data2) {
         if(error2) return console.log(error2);
         fetch_data(data2.origin.url, function (error3, data3){
-            if (error) return console.error(error3);
+            if (error3) return console.error(error3);
             console.log(data1.info.count);
             console.log(data2.name);
             console.log(data3.dimension);
