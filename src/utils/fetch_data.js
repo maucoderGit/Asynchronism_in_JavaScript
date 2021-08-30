@@ -19,4 +19,4 @@ const fetch_data = (url_api) => {
     })
 }
 
-module.export = fetch_data()
+module.exports = fetch_data

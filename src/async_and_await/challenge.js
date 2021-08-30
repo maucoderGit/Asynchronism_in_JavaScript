@@ -5,7 +5,7 @@ const another_function = async (url_api) => {
     try{
         const data = await fetch_data(url_api)
         const character = await fetch_data(`${API}${data.results[0].id}`)
-        const origin = await fetch_data(characcter.origin.url)
+        const origin = await fetch_data(character.origin.url)
     
         console.log(data.info.count)
         console.log(character.name)
