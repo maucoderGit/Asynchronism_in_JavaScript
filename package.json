@@ -7,7 +7,8 @@
     "callback": "node src/callbacks.js",
     "callback:challenge": "node src/callbacks/challenge.js",
     "promise": "node src/promises/promises.js",
-    "promise:challenge": "node src/promises/challenge.js"
+    "promise:challenge": "node src/promises/challenge.js",
+    "async": "node src/async_and_await/index.js"
   },
   "author": "Mauricio Alejandro Gonzalez Falcon",
   "license": "MIT",
