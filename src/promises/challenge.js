@@ -8,7 +8,7 @@ fetch_data(API)
     })
     .then (data => {
         console.log(data.name)
-        return fetch_data(data.origin.url)
+        return fetch_data(data.origin.url) 
     })
     .then (data => {
         console.log(data.dimension)
