@@ -8,7 +8,7 @@ const fetch_data =(url_api) => {
 
         xhttp.open('GET', url_api, true);
     
-        xhttp.onreadystatechange = function (event){
+        xhttp.onreadystatechange = () => {
             if (xhttp.readyState === 4)
             {
                 (xhttp.status === 200)
